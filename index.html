@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashna Ann Kuriakose - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+
+:root {
+            --primary-color: #9cb4c4;  /* Blue */
+            --secondary-color: #c9986e;  /* Sandy Brown (complementary to blue) */
+            --background-color: #cbd9e7;  /* Light blue background */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            scroll-behavior: smooth;
+            background-color: var(--background-color);
+        }
+
+        .nav-content {
+            background-color: var(--primary-color);
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--secondary-color);
+        }
+
+        .btn {
+            background-color: var(--secondary-color);
+            color: #fff;
+        }
+
+        .btn:hover {
+            background-color: #e59649;  /* Darker shade of Sandy Brown */
+        }
+
+        .section-title {
+            color: var(--primary-color);
+        }
+
+        .education-item, .project-item {
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 4rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2c3e50;
+        }
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            background-color: #34495e;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ecf0f1;
+        }
+        .nav-menu {
+            display: flex;
+        }
+        .nav-link {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: #3498db;
+        }
+        .home-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80vh;
+        }
+        .home-text {
+            flex: 1;
+        }
+        .home-text h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .social-icons {
+            margin-top: 1rem;
+        }
+        .social-icons a {
+            color: #3498db;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #2980b9;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .about-content, .education-content, .projects-content, .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .education-item, .project-item {
+            background-color: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .education-item:hover, .project-item:hover {
+            transform: translateY(-5px);
+        }
+        .contact-info {
+            margin-bottom: 2rem;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        @media (max-width: 768px) {
+            .nav-content, .home-content {
+                flex-direction: column;
+            }
+            .nav-menu {
+                margin-top: 1rem;
+            }
+            .home-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="container nav-content">
+        <div class="nav-logo">Aashna Ann</div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container home-content">
+            <div class="home-text">
+                <h1>Aashna Ann Kuriakose</h1>
+                <p>MCA candidate proficient in Python, Java, C, and C++.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am an MCA candidate with a strong foundation in programming languages such as Python, Java, C, and C++. Through internships at Acmegrade, Auro Tech Solutions, and CSRBox, I've gained practical experience in web development, Python programming, and data science. I've developed various projects including a real-time chat application, Text-to-Speech app, Weather app, and this portfolio website. I'm proficient in multiple programming languages and web technologies, and I possess good problem-solving abilities and teamwork skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Master of Computer Applications</h3>
+                    <p>Cochin University of Science and Technology</p>
+                    <p>Jul. 2023 - May 2025</p>
+                    <p>GPA: 9.83/10</p>
+                </div>
+                <div class="education-item">
+                    <h3>Bachelor of Science (Physics)</h3>
+                    <p>Mar Athanasius College</p>
+                    <p>Jun. 2020 - May 2023</p>
+                    <p>CGPA: 9.5/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-content">
+                <div class="project-item">
+                    <h3>Text to Speech Converter</h3>
+                    <p>Web application using HTML, CSS, JavaScript</p>
+                </div>
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>Responsive app using HTML, CSS, JavaScript, and OpenWeatherMap API</p>
+                </div>
+                <div class="project-item">
+                    <h3>Real-time Chat Application</h3>
+                    <p>Node.js, Express, and Socket.IO based chat app</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Email: annkuriakoseaashna@gmail.com</p>
+                    <p>Phone: +91 9947361440</p>
+                    <p>Location: Kothamangalam, Ernakulam, Kerala, India</p>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <p>© 2024 Aashna Ann Kuriakose. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active navigation link
+        const sections = document.querySelectorAll(".section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").slice(1) === current) {
+                    link.classList.add("active");
+                }
+            });
+        });
+
+        // Form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            console.log('Form submitted:', {
+                name: this.name.value,
+                email: this.email.value,
+                message: this.message.value
+            });
+            // Here you would typically send the form data to a server
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
