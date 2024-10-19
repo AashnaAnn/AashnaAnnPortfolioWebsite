@@ -1,78 +1,58 @@
-# GitHub Pages Portfolio
+# Aashna Ann Kuriakose - Portfolio Website
 
-This repository contains the source code for a personal portfolio website hosted on GitHub Pages.
+This repository contains the source code for my personal portfolio website hosted on GitHub Pages.
 
-## Description
+## Website Description
 
-This project is a simple, static website built with HTML, CSS, and JavaScript. It serves as a personal portfolio to showcase skills, projects, and professional information.
+This website serves as a showcase of my skills, projects, and professional information as an MCA candidate. It's a static website built with HTML, CSS, and JavaScript, designed to be responsive and user-friendly.
 
-## Getting Started
+### Features
 
-### Prerequisites
+- **Home Section**: Introduces me and provides quick access to other sections.
+- **About Section**: Offers a brief overview of my background and skills.
+- **Education Section**: Details my academic qualifications.
+- **Projects Section**: Showcases some of my key projects.
+- **Contact Section**: Provides my contact information and a form for visitors to reach out.
 
-- A GitHub account
-- Git installed on your local machine
-- A text editor (e.g., Visual Studio Code)
+## Repository Structure
 
-### Setup
+- `index.html`: The main HTML file containing the structure of the website.
+- `style.css`: Contains all the styling for the website.
+- `script.js`: Includes JavaScript for interactive elements.
+- `assets/`: Directory containing images and other static assets.
 
-1. Create a new repository on GitHub named `yourusername.github.io`
-2. Clone the repository to your local machine:
+## Viewing the Website
+
+The live version of this website can be viewed at: https://aashnaann.github.io
+
+## Local Development
+
+To set up this project locally:
+
+1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/yourusername.github.io.git
+   git clone https://github.com/aashnaann/aashnaann.github.io.git
    ```
-3. Navigate to the project directory:
-   ```
-   cd yourusername.github.io
-   ```
-
-### Development
-
-1. Open the project folder in your text editor
-2. Edit the HTML, CSS, and JavaScript files as needed
-3. Test your changes locally by opening `index.html` in a web browser
-
-### Deployment
-
-1. After making changes, stage your files:
-   ```
-   git add .
-   ```
-2. Commit your changes:
-   ```
-   git commit -m "Description of your changes"
-   ```
-3. Push to GitHub:
-   ```
-   git push origin main
-   ```
-
-GitHub Pages will automatically build and deploy your site. Your portfolio will be accessible at `https://yourusername.github.io`.
-
-## GitHub Pages Configuration
-
-1. Go to your repository on GitHub
-2. Click on "Settings"
-3. Navigate to the "Pages" section
-4. Under "Source", select "Deploy from a branch"
-5. Choose "main" as your branch and "/(root)" as the folder
-6. Click "Save"
+2. Open the project folder in your preferred code editor.
+3. To view the website locally, simply open the `index.html` file in a web browser.
 
 ## Making Changes
 
-To update your portfolio:
+1. Make your desired changes to the HTML, CSS, or JavaScript files.
+2. Test your changes locally by refreshing `index.html` in your browser.
+3. Once satisfied, commit your changes:
+   ```
+   git add .
+   git commit -m "Description of your changes"
+   git push origin main
+   ```
+4. GitHub Pages will automatically rebuild and deploy your site.
 
-1. Make changes to your local files
-2. Commit and push the changes to GitHub
-3. GitHub will automatically rebuild and redeploy your site
+## Contact
 
-## Additional Resources
-
-- [GitHub Pages documentation](https://docs.github.com/en/pages)
-- [HTML5 Tutorial](https://www.w3schools.com/html/)
-- [CSS Tutorial](https://www.w3schools.com/css/)
-- [JavaScript Tutorial](https://www.w3schools.com/js/)
+For any inquiries or suggestions regarding this website, please contact me at:
+- Email: annkuriakoseaashna@gmail.com
 
 ---
 
-Remember to replace `yourusername` with your actual GitHub username throughout this README.
+© 2024 Aashna Ann Kuriakose. All rights reserved.
