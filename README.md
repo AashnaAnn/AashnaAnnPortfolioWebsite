@@ -23,7 +23,7 @@ This website serves as a showcase of my skills, projects, and professional infor
 
 ## Viewing the Website
 
-The live version of this website can be viewed at: https://aashnaann.github.io
+The live version of this website can be viewed at: https://aashnaann.github.io/AashnaAnnPortfolioWebsite
 
 ## Local Development
 
